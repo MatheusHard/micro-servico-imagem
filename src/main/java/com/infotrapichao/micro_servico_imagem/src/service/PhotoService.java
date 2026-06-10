@@ -22,8 +22,7 @@ public class PhotoService {
                 imagemBase64 = imagemBase64.split(",")[1];
             }
 
-            byte[] imagemBytes =
-                    Base64.getDecoder().decode(imagemBase64);
+            byte[] imagemBytes = Base64.getDecoder().decode(imagemBase64);
 
             Path uploadsDir = Paths.get("uploads");
 
@@ -43,8 +42,7 @@ public class PhotoService {
         } catch (Exception ex) {
             throw new RuntimeException(
                     "Erro ao salvar imagem",
-                    ex
-            );
+                    ex);
         }
     }
 }
