@@ -30,6 +30,8 @@ public class PhotoController {
                 request.photoName(),
                 request.imagemBase64());
 
-        return ResponseEntity.ok().build();
+        return ResponseEntity
+                .ok()
+                .build();
     }
 }

@@ -1,4 +1,4 @@
-package com.infotrapichao.micro_servico_imagem.src.config;
+package com.infotrapichao.micro_servico_imagem.src.config.swagger;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;
