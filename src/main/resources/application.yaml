@@ -15,4 +15,4 @@ springdoc:
     path: /api-docs
 
 jwt:
-     secret: DDDFGFDSKKMMMMMMSAKALSMALDAGHGFJDLEEKEMDSSDADNFGBVVCC
+     secret: ${JWT_SECRET}
